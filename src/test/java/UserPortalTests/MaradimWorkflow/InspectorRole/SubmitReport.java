@@ -44,6 +44,8 @@ public class SubmitReport extends GlobalSetup {
      */
     @BeforeMethod(description = "prepare the data for the test")
     public void fillTestDate() {
+        homePage.navigateToActivitiesPage();
+
         // Implementation omitted for brevity
     }
 
